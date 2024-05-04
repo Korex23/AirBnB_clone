@@ -1,0 +1,23 @@
+* {
+	box-sizing: inherit;
+}
+
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Circular,  Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+}

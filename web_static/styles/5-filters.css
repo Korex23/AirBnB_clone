@@ -1,0 +1,48 @@
+.container > .filters{
+    height: 70px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    background-color: #fff;
+}
+
+.container > .filters > button{
+    background-color: #FF5A5F;
+    padding: 0;
+    color: #fff;
+    height: 48px;
+    width: 20%;
+    text-decoration: none; 
+    font-size: 18px;
+    border-radius: 4px; 
+    border: none;
+    margin-right: 30px;
+    align-self: center;
+    margin-left: auto;
+}
+
+button:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+section > .locations, section > .amenities{
+    height: 100%;
+    width: 25%;
+    padding-left: 30px;
+}
+section > .locations{
+    border-right: 1px solid #ddd;
+}
+
+section > .locations > h3, section > .amenities > h3{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+section > .locations > h4, section > .amenities > h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
